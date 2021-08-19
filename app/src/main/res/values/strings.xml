@@ -3,4 +3,5 @@
     <string name="dice_app">Dice App</string>
     <string name="roll_the_dice_button_text">Roll the dice!</string>
     <string name="image_of_a_dice">Image of a dice</string>
+    <string name="tip_calculator_app">Tip Calculator App</string>
 </resources>

@@ -27,9 +27,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="66dp"
                 android:background="@null"
-                android:backgroundTint="#4CAF50"
+                android:backgroundTint="@color/red_dice"
                 android:shadowColor="#301D1D"
                 android:text="@string/dice_app"
+                android:textColor="#000000"
+                android:textColorLink="#950A0A"
+                app:rippleColor="#E1E1E1"
+                app:strokeColor="#00371111" />
+
+            <Button
+                android:id="@+id/buttonTipCalculatorApp"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:background="@null"
+                android:backgroundTint="@color/blue_tip"
+                android:shadowColor="#301D1D"
+                android:text="@string/tip_calculator_app"
                 android:textColor="#000000"
                 android:textColorLink="#950A0A"
                 app:rippleColor="#E1E1E1"

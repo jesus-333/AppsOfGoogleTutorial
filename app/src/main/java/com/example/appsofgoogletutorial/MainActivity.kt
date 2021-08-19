@@ -12,11 +12,15 @@ class MainActivity : AppCompatActivity() {
 
         val buttonDiceApp: Button = findViewById(R.id.buttonDiceApp)
         buttonDiceApp.setOnClickListener{changeScene(1)}
+
+        val buttonTipCalculatorApp: Button = findViewById(R.id.buttonTipCalculatorApp)
+        buttonDiceApp.setOnClickListener{changeScene(2)}
     }
 
     private fun changeScene(select_app: Int){
         when(select_app){
             1 -> startActivity(Intent(this, DiceAppActivity::class.java))
+            2 -> startActivity(Intent(this, TipCalculatorActivity::class.java))
         }
 
     }
