@@ -18,7 +18,6 @@ class DiceAppActivity : AppCompatActivity() {
     /**
      * Roll the dice and update the screen with the result.
      */
-
     private fun rollDice() {
         // Select ImageView used to display the dice
         val diceImage: ImageView = findViewById(R.id.DiceImageView)
@@ -35,7 +34,6 @@ class DiceAppActivity : AppCompatActivity() {
         }
     }
 }
-
 
 class Dice(private val numSides: Int) {
     fun roll(): Int {

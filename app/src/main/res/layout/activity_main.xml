@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="66dp"
                 android:background="@null"
-                android:backgroundTint="@color/blue_tip"
+                android:backgroundTint="#1950AE"
                 android:shadowColor="#301D1D"
                 android:text="@string/tip_calculator_app"
                 android:textColor="#000000"
