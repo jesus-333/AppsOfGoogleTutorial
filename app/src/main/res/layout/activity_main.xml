@@ -48,6 +48,19 @@
                 app:rippleColor="#E1E1E1"
                 app:strokeColor="#00371111" />
 
+            <Button
+                android:id="@+id/buttonStyleAndThemeApp"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:background="@null"
+                android:backgroundTint="#1C7A20"
+                android:shadowColor="#301D1D"
+                android:text="@string/style_and_theme_app"
+                android:textColor="#000000"
+                android:textColorLink="#950A0A"
+                app:rippleColor="#E1E1E1"
+                app:strokeColor="#00371111" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

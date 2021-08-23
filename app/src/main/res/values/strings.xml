@@ -9,4 +9,5 @@
     <string name="tip_amount">Tip Amount: %s</string>
     <string name="calculate_tip">Calculate Tip</string>
     <string name="error_message_tip_app">Invalid cost of the service</string>
+    <string name="style_and_theme_app">Style and Theme App</string>
 </resources>
